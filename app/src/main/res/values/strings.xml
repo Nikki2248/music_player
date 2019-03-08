@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Music</string>
+    <string name="Email">em1</string>
+    <string name="Password">pass</string>
+
+    <string name="signin">signIn</string>
+</resources>

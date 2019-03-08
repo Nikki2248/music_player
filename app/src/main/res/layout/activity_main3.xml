@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rocket.login_design.MainActivity3"
+    android:background="@drawable/back">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="340dp"
+        android:layout_height="400dp"
+        app:cardBackgroundColor="@color/transparent_white_1"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:elevation="6dp"
+        >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginRight="130dp"
+        android:src="@drawable/ic_user"
+        >
+    </ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:layout_marginTop="80dp"
+        android:textSize="30dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="120dp"
+        android:textColor="@color/gray"
+
+        >
+
+
+
+
+    </TextView>
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="150dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:textSize="20sp"
+    android:hint="Username"
+
+    android:drawableLeft="@drawable/ic_user"
+    android:id="@+id/editText">
+</EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_alignStart="@+id/editText"
+        android:layout_below="@+id/editText"
+        android:layout_marginTop="30dp"
+        android:hint="Password"
+        android:drawableLeft="@drawable/ic_pass"
+        android:textSize="20sp"
+        android:layout_marginRight="30dp">
+
+
+    </EditText>
+<android.support.v7.widget.CardView
+    android:id="@+id/cardview1"
+    android:layout_width="400dp"
+    android:layout_height="50dp"
+    app:cardCornerRadius="25dp"
+    android:layout_marginTop="320dp"
+    android:layout_marginBottom="30dp"
+    android:layout_marginLeft="120dp"
+    android:layout_marginRight="120dp"
+    app:cardBackgroundColor="@color/lightgrey"
+    >
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/signIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textColor="@color/gray"
+            android:textSize="20dp"
+            android:text="@string/signin"/>
+
+
+
+
+    </RelativeLayout>
+
+
+
+</android.support.v7.widget.CardView>
+    
+
+
+
+
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="30dp"
+            app:cardBackgroundColor="@color/lightgrey"
+            app:cardCornerRadius="25dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:elevation="5dp"
+                    android:paddingLeft="20dp"
+                    android:text="Register Here"
+                    android:textColor="@color/gray"
+                    android:textSize="20dp"
+
+
+
+                    />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>
